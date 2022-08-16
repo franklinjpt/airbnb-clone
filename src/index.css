@@ -15,10 +15,10 @@ html {
 }
 .hero-section {
   width: 88%;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .hero-section__figure {
-  padding: 2rem 1rem;
+  padding: 1rem;
   margin: 0 auto;
   max-width: 72.5rem;
 }
@@ -36,14 +36,30 @@ html {
   font-size: 1.5rem;
   line-height: 1.76rem;
 }
+.card-container {
+  display: flex;
+  padding: 2.5rem 1rem;
+  overflow-x: auto;
+}
 .card {
+  position: relative;
+  min-width: 20rem;
+  padding: 0 1rem;
   font-size: 1.2rem;
   line-height: 1.32rem;
+}
+.card__badge {
+  position: absolute;
+  top: 5px;
+  left: 16px;
+  padding: .5rem;
+  background-color: #FFFFFF;
 }
 .card img {
   width: 17.6rem;
   height: 23.5rem;
   border-radius: 9px;
+  cursor: pointer;
 }
 .gray {
   color:#918E9B;
@@ -68,4 +84,13 @@ html {
 }
 .card__price--bold {
   font-weight: 600;
+}
+
+@media (min-width: 620px) {
+  .hero-section {
+    text-align: center;
+  }
+  .card-container {
+    justify-content: center;
+  }
 }
