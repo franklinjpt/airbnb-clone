@@ -13,3 +13,26 @@ html {
   padding: 2.2rem;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
+.hero-section {
+  width: 88%;
+  margin: 0 auto;
+}
+.hero-section__figure {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 72.5rem;
+}
+.hero-section__figure img{
+  width: 100%;
+}
+.hero-section__title {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 3.96rem;
+}
+.hero-section__description {
+  padding-top: 1rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.76rem;
+}
