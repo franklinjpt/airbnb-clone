@@ -36,3 +36,36 @@ html {
   font-size: 1.5rem;
   line-height: 1.76rem;
 }
+.card {
+  font-size: 1.2rem;
+  line-height: 1.32rem;
+}
+.card img {
+  width: 17.6rem;
+  height: 23.5rem;
+  border-radius: 9px;
+}
+.gray {
+  color:#918E9B;
+}
+.card__stats {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+.card__stats-item.star {
+  width: 1.4rem;
+  height: 1.4rem;
+  background: url('../public/images/star.png') no-repeat center/88%;
+}
+.card__stats-item {
+  margin-right: 0.2rem;
+}
+.card__title {
+  margin: .5rem 0;
+  font-weight: 400;
+  color:#222222;
+}
+.card__price--bold {
+  font-weight: 600;
+}
