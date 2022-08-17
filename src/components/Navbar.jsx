@@ -1,7 +1,7 @@
 export default function(){
   return (
     <nav className="header-nav">
-      <img src="/airbnb-logo.svg" alt="airbnb logo"/>
+      <img src="/images/airbnb-logo.png" alt="airbnb logo"/>
     </nav>
   )
 }
