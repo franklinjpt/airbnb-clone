@@ -14,10 +14,10 @@ html {
   padding: 2.2rem 0 2.2rem 1rem;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
-/* .header-nav img {
+.header-nav img {
   width: 8.202rem;
   height: 2.535rem;
-} */
+}
 .hero-section {
   width: 88%;
   margin: 2rem auto;
